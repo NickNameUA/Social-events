@@ -1,0 +1,44 @@
+nav {
+  background-color: var(--background-dark);
+  box-sizing: border-box;
+  display: flex;
+  height: 70px;
+  padding: 5px 10px;
+  width: 100%;
+}
+
+  nav .navBtn {
+    align-items: center;
+    box-sizing: border-box;
+    color: var(--background-light);
+    display: flex;
+    font-family: var(--font);
+    font-size: 20px;
+    height: 100%;
+    margin: auto;
+    padding: 10px;
+    padding: 0%;
+    padding: 10px;
+    text-decoration: none;
+    transition: all 1s;
+  }
+
+  nav .navBtn:nth-child(2) {
+      border-radius: 50%;
+      padding-left: 15px;
+      width: 70px;
+    }
+
+  nav .navBtn:last-child {
+      display: flex;
+      margin-right: 0;
+    }
+
+  nav .navBtn .icon {
+      font-size: 50px;
+    }
+
+  nav .navBtn:hover {
+    background: var(--background-main);
+    border-radius: 50%;
+  }
